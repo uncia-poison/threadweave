@@ -1,0 +1,10 @@
+# Ignore Python cache and temporary files
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+env/
+venv/
+tmp/
+*.log
+.DS_Store
