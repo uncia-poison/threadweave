@@ -1,0 +1,46 @@
+ack_words:
+  - "готово"
+  - "сделала"
+  - "приняла"
+  - "выпила"
+  - "ок"
+  - "окей"
+  - "👍"
+  - "✅"
+
+snooze_words:
+  - "позже"
+  - "после матча"
+  - "завтра"
+
+stop_words:
+  - "стоп"
+
+priority:
+  - care
+  - deadline
+  - creative
+  - domestic
+
+labels:
+  care: "care: "
+  default: ""
+
+render_guard:
+  pre_ping_before_image: true
+
+isolation:
+  respect_temporary: true
+  respect_project_only: true
+
+# Quiet triggers are ordinary words or emojis that act as hidden cues.  When any
+# of these tokens appears in the user's message, the agent checks for
+# unclosed tickets and may insert a carryover.  Leave the list empty to
+# disable this feature.
+quiet_triggers:
+  - "kai"
+  - "thanks"
+  - "🙏"
+
+
+  
